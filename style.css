@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+}
+
+.bagian1{
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bagian2{
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 330px;
+}
+
+.gambar{
+    width: 200px;
+    height: 200px;
+    background-color:aqua;
+    margin-left: 550px;
+    overflow: hidden;
+}
+.gambar img{
+    transition: .4s;
+}
+
+.gambar img:hover{
+    transform: scale(1.5);
+}
